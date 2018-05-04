@@ -21,3 +21,9 @@ URL = https://canary.discordapp.com/api/users/@me/connections
     * int
 * revoked
     * boolean
+
+# Unauthorized Return
+* code
+    * int
+* message
+    * string
