@@ -1,5 +1,8 @@
 URL = https://canary.discordapp.com/api/users/@me/connections
 
+## Header
+* Authorization
+    * User-Token (without ")
 ## RETURNS
 
 # OK Return
