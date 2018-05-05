@@ -18,7 +18,6 @@ URL: https://canary.discordapp.com/api/v6
 ## /users/@me/billing
 ## /users/@me/billing/premium-subscription
 ## /users/@me/billing/payments
-## 
 
 ## /guilds/:guild-id/audit-logs
 ## /guilds/:guild-id/webhooks

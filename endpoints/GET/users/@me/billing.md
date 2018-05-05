@@ -29,6 +29,12 @@ URL = https://canary.discordapp.com/api/users/@me/billing
 * payment_gateway
     * string
 
+## No Nitro Return
+* code
+    * int
+* message
+    * string
+
 ## Unauthorized Return
 * code
     * int
