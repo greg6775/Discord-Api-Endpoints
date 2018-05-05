@@ -36,6 +36,18 @@ URL = https://canary.discordapp.com/api/users/@me/settings
     * boolean
 * restricted_guilds
     * array
+* detect_platform_accounts
+    * boolean
+* developer_mode
+    * boolean
+* default_guilds_restricted
+    * boolean
+* convert_emoticons
+    * boolean
+* guild_positions
+    * array
+* friend_source_flags
+    * 
 
 ## Unauthorized Return
 * code
