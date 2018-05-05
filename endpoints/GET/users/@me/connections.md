@@ -3,9 +3,9 @@ URL = https://canary.discordapp.com/api/users/@me/connections
 ## Header
 * Authorization
     * User-Token (without ")
-### RETURNS
+# RETURNS
 
-# OK Return
+## OK Return
 * integrations
     * array
 * verified
@@ -25,7 +25,7 @@ URL = https://canary.discordapp.com/api/users/@me/connections
 * revoked
     * boolean
 
-# Unauthorized Return
+## Unauthorized Return
 * code
     * int
 * message

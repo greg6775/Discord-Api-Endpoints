@@ -3,9 +3,9 @@ URL = https://canary.discordapp.com/api/users/@me/channels
 ## Header
 * Authorization
     * User-Token (without ")
-### RETURNS
+# RETURNS
 
-# OK Return
+## OK Return
 * last_message_id
     * string
 * type
@@ -24,7 +24,7 @@ URL = https://canary.discordapp.com/api/users/@me/channels
     * avatar
         * string or boolean
 
-# Unauthorized Return
+## Unauthorized Return
 * code
     * int
 * message

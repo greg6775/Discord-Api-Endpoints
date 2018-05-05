@@ -3,9 +3,9 @@ URL = https://canary.discordapp.com/api/users/@me/guilds
 ## Header
 * Authorization
     * User-Token (without ")
-### RETURNS
+# RETURNS
 
-# OK Return
+## OK Return
 * owner
     * boolean
 * permissions
@@ -17,7 +17,7 @@ URL = https://canary.discordapp.com/api/users/@me/guilds
 * name
     * string
 
-# Unauthorized Return
+## Unauthorized Return
 * code
     * int
 * message
