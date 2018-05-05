@@ -3,7 +3,7 @@ URL = https://canary.discordapp.com/api/users/@me/relationships
 ## Header
 * Authorization
     * User-Token (without ")
-## RETURNS
+### RETURNS
 
 # OK Return
 * type

@@ -3,7 +3,7 @@ URL = https://canary.discordapp.com/api/
 ## Header
 * Header Key
     * Header Value
-## RETURNS
+### RETURNS
 
 # OK Return
 * name
