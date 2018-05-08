@@ -4,8 +4,8 @@ URL: https://canary.discordapp.com/api/v6
 
 # GET
 
-## /users/:id
-## /users/:id/profile
+## /users/:user-id
+## /users/:user-id/profile
 ## /users/@me
 ## /users/@me/connections
 ## /users/@me/guilds
@@ -19,9 +19,6 @@ URL: https://canary.discordapp.com/api/v6
 ## /users/@me/billing/premium-subscription
 ## /users/@me/billing/payments
 
-## /guilds/:guild-id/audit-logs
-## /guilds/:guild-id/webhooks
-
 ## /channels/:channel-id
 ## /channels/:channel-id/messages
 ## /channels/:channel-id/messages/:message-id
@@ -31,6 +28,8 @@ URL: https://canary.discordapp.com/api/v6
 ## /channels/:channel-id/webhooks
 ## /channels/:channel-id/call
 
+## /guilds/:guild-id/audit-logs
+## /guilds/:guild-id/webhooks
 ## /guilds/:guild-id/emojis
 ## /guilds/:guild-id/emojis/:emoji-id
 ## /guilds/:guild-id
