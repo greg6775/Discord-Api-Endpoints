@@ -4,7 +4,6 @@ URL: https://canary.discordapp.com/api/v6
 
 # GET
 
-## /users/:user-id
 ## /users/:user-id/profile
 ## /users/@me
 ## /users/@me/connections
