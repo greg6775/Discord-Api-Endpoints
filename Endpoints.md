@@ -20,8 +20,6 @@ URL: https://canary.discordapp.com/api/v6
 
 ## /channels/:channel-id
 ## /channels/:channel-id/messages
-## /channels/:channel-id/messages/:message-id
-## /channels/:channel-id/messages/:message-id/reactions/:emoji
 ## /channels/:channel-id/invites
 ## /channels/:channel-id/pins
 ## /channels/:channel-id/webhooks
