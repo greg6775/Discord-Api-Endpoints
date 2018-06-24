@@ -4,6 +4,7 @@ URL: https://canary.discordapp.com/api/v6
 
 # GET
 
+## /users/:user-id
 ## /users/:user-id/profile
 ## /users/@me
 ## /users/@me/connections
@@ -20,19 +21,21 @@ URL: https://canary.discordapp.com/api/v6
 
 ## /channels/:channel-id
 ## /channels/:channel-id/messages
+## /channels/:channel-id/messages/:message-id
+## /channels/:channel-id/messages/:message-id:/reactions/:emoji
 ## /channels/:channel-id/invites
 ## /channels/:channel-id/pins
 ## /channels/:channel-id/webhooks
 ## /channels/:channel-id/call
 
+## /guilds/:guild-id
 ## /guilds/:guild-id/audit-logs
 ## /guilds/:guild-id/webhooks
 ## /guilds/:guild-id/emojis
 ## /guilds/:guild-id/emojis/:emoji-id
-## /guilds/:guild-id
 ## /guilds/:guild-id/channels
-## /guilds/:guild.id/members/:user-id
 ## /guilds/:guild-id/members
+## /guilds/:guild.id/members/:user-id
 ## /guilds/:guild-id/bans
 ## /guilds/:guild-id/roles
 ## /guilds/:guild-id/prune
@@ -41,7 +44,6 @@ URL: https://canary.discordapp.com/api/v6
 ## /guilds/:guild-id/integrations
 ## /guilds/:guild-id/embed
 ## /guilds/:guild-id/vanity-url
-## /guilds/:guild-id/webhooks
 
 ## /invites/:invite-code
 
@@ -65,6 +67,7 @@ URL: https://canary.discordapp.com/api/v6
 ## /auth/register
 
 ## /gateway
+## /gateway/bot
 
 ## /applications
 
