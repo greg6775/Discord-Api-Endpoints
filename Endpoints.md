@@ -81,10 +81,10 @@ URL: https://canary.discordapp.com/api/v6
 ## /channels/:channel-id/messages/bulk-delete
 ## /channels/:channel-id/invites
 ## /channels/:channel-id/typing
+
 ## /guilds/:guild-id/emojis
 ## /guilds/:guild-id/channels
 ## /guilds/:guild-id/roles
 ## /guilds/:guild-id/prune
 ## /guilds/:guild-id/integrations
 ## /guilds/:guild-id/integrations/:integration-id/sync
-## 

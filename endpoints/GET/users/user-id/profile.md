@@ -36,6 +36,18 @@ URL = https://canary.discordapp.com/api/users/:user-id/profile
         * name
             * string
 
+## Unknown User Return
+* code
+    * int
+* message
+    * string
+
+## Missing Acces Return
+* code
+    * int
+* message
+    * string
+
 ## Unauthorized Return
 * code
     * int
