@@ -6,6 +6,7 @@ URL: https://canary.discordapp.com/api/v6
 
 ## /users/:user-id
 ## /users/:user-id/profile
+## /users/:user-id/relationships
 ## /users/@me
 ## /users/@me/connections
 ## /users/@me/guilds
@@ -46,6 +47,7 @@ URL: https://canary.discordapp.com/api/v6
 ## /guilds/:guild-id/vanity-url
 
 ## /invites/:invite-code
+## /invite/:invite-code
 
 ## /voice/regions
 ## /voice/ice
@@ -71,8 +73,10 @@ URL: https://canary.discordapp.com/api/v6
 
 ## /applications
 
-## /oauth2/applications/:game-id/rpc
-## /oauth2/applications/:game-id/assets
+## /oauth2/applications
+## /oauth2/applications/:application-id
+## /oauth2/applications/:application-id/rpc
+## /oauth2/applications/:application-id/assets
 ## /oauth2/tokens
 
 # POST
