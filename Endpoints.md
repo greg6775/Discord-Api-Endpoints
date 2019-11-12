@@ -5,10 +5,14 @@ URL: https://canary.discordapp.com/api/v6
 # GET
 
 ## /users/:user-id
+## /users/:user-id/channels
 ## /users/:user-id/profile
 ## /users/:user-id/relationships
+## /users/:user-id/sessions/:session-id/activities/:application-id/metadata
 ## /users/@me
+## /users/@me?with_analytics_token=true
 ## /users/@me/connections
+## /users/@me/consent
 ## /users/@me/guilds
 ## /users/@me/channels
 ## /users/@me/relationships
@@ -16,9 +20,8 @@ URL: https://canary.discordapp.com/api/v6
 ## /users/@me/settings
 ## /users/@me/mentions
 ## /users/@me/feed/settings
-## /users/@me/billing
-## /users/@me/billing/premium-subscription
 ## /users/@me/billing/payments
+## /users/@me/billing/payment-sources
 
 ## /channels/:channel-id
 ## /channels/:channel-id/messages
