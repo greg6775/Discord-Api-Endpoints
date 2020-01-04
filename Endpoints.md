@@ -5,8 +5,15 @@ URL: https://canary.discordapp.com/api/v6
 # GET
 
 ### /applications
-### /applications/detectable
 ### /applications/:application-id/branches
+### /applications/:application-id/branches/:branch-id/builds
+### /applications/:application-id/branches/:branch-id/builds/:build-id
+### /applications/:application-id/branches/:branch-id/builds/live?locale=:locale&platform=:platform
+### /applications/:application-id/skus
+### /applications/:application-id/public
+### /applications/detectable
+### /applications/public?application_ids=:application-id
+### /applications/trending/global
 &nbsp;
 ### /application-news
 ### /application-news/:application-news-id
@@ -26,7 +33,7 @@ URL: https://canary.discordapp.com/api/v6
 ### /channels/:channel-id/messages
 ### /channels/:channel-id/messages/search
 ### /channels/:channel-id/messages/:message-id
-### /channels/:channel-id/messages/:message-id:/reactions/:emoji
+### /channels/:channel-id/messages/:message-id/reactions/:emoji
 ### /channels/:channel-id/pins
 ### /channels/:channel-id/store-listing
 ### /channels/:channel-id/store-listing/:sku-id
@@ -77,6 +84,13 @@ URL: https://canary.discordapp.com/api/v6
 ### /oauth2/authorize/webhook-channels?guild_id=:guild-id
 ### /oauth2/tokens
 ### /oauth2/tokens/:application-id
+&nbsp;
+### /promotions
+&nbsp;
+### /store/published-listings/applications/:application-id
+### /store/published-listings/skus/:application-id
+### /store/skus/:application-id
+### /store/skus/:application-id/listings
 &nbsp;
 ### /tutorial
 &nbsp;
