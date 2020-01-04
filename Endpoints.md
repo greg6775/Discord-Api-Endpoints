@@ -7,17 +7,17 @@ URL: https://canary.discordapp.com/api/v6
 ### /applications
 ### /applications/detectable
 ### /applications/:application-id/branches
-
+&nbsp;
 ### /application-news
 ### /application-news/:application-news-id
-
+&nbsp;
 ### /activities
 ### /activities/statistics/applications/:application-id
-
+&nbsp;
 ### /auth/login
 ### /auth/register
 ### /auth/consent-required
-
+&nbsp;
 ### /channels/:channel-id
 ### /channels/:channel-id/call
 ### /channels/:channel-id/follower-stats
@@ -31,18 +31,18 @@ URL: https://canary.discordapp.com/api/v6
 ### /channels/:channel-id/store-listing
 ### /channels/:channel-id/store-listing/:sku-id
 ### /channels/:channel-id/webhooks
-
+&nbsp;
 ### /connections/:provider-id/authorize
-
+&nbsp;
 ### /experiments
-
+&nbsp;
 ### /friend-suggestions
-
+&nbsp;
 ### /games
-
+&nbsp;
 ### /gateway
 ### /gateway/bot
-
+&nbsp;
 ### /guilds/:guild-id
 ### /guilds/:guild-id/analytics/overview
 ### /guilds/:guild-id/applications
@@ -65,10 +65,10 @@ URL: https://canary.discordapp.com/api/v6
 ### /guilds/:guild-id/roles
 ### /guilds/:guild-id/vanity-url
 ### /guilds/:guild-id/webhooks
-
+&nbsp;
 ### /invites/:invite-code
 ### /invite/:invite-code
-
+&nbsp;
 ### /oauth2/applications
 ### /oauth2/applications/:application-id
 ### /oauth2/applications/:application-id/rpc
@@ -77,9 +77,9 @@ URL: https://canary.discordapp.com/api/v6
 ### /oauth2/authorize/webhook-channels?guild_id=:guild-id
 ### /oauth2/tokens
 ### /oauth2/tokens/:application-id
-
+&nbsp;
 ### /tutorial
-
+&nbsp;
 ### /users/:user-id
 ### /users/:user-id/channels
 ### /users/:user-id/profile
@@ -113,20 +113,20 @@ URL: https://canary.discordapp.com/api/v6
 ### /users/@me/mentions
 ### /users/@me/relationships
 ### /users/@me/settings
-
+&nbsp;
 ### /voice/regions
 ### /voice/ice
-
+&nbsp;
 ### /webhooks/:webhook-id
 ### /webhooks/:webhook-id/:webhook-token
-
+&nbsp;
 # POST
-
+&nbsp;
 ### /channels/:channel-id/messages
 ### /channels/:channel-id/messages/bulk-delete
 ### /channels/:channel-id/invites
 ### /channels/:channel-id/typing
-
+&nbsp;
 ### /guilds/:guild-id/emojis
 ### /guilds/:guild-id/channels
 ### /guilds/:guild-id/roles
