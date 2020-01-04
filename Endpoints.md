@@ -41,6 +41,8 @@ URL: https://canary.discordapp.com/api/v6
 &nbsp;
 ### /connections/:provider-id/authorize
 &nbsp;
+### /entitlements/gift-codes/:gift-code
+&nbsp;
 ### /experiments
 &nbsp;
 ### /friend-suggestions
@@ -49,6 +51,9 @@ URL: https://canary.discordapp.com/api/v6
 &nbsp;
 ### /gateway
 ### /gateway/bot
+&nbsp;
+### /gifs/suggest?q=:query
+### /gifs/trending
 &nbsp;
 ### /guilds/:guild-id
 ### /guilds/:guild-id/analytics/overview
