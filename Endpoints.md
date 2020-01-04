@@ -48,7 +48,9 @@ URL: https://canary.discordapp.com/api/v6
 ### /guilds/:guild-id/applications
 ### /guilds/:guild-id/audit-logs
 ### /guilds/:guild-id/bans
+### /guilds/:guild-id/bans/:user-id
 ### /guilds/:guild-id/channels
+### /guilds/:guild-id/discovery-checklist
 ### /guilds/:guild-id/embed
 ### /guilds/:guild-id/emojis
 ### /guilds/:guild-id/emojis/:emoji-id
