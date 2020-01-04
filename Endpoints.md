@@ -12,6 +12,7 @@ URL: https://canary.discordapp.com/api/v6
 ### /application-news/:application-news-id
 
 ### /activities
+### /activities/statistics/applications/:application-id
 
 ### /auth/login
 ### /auth/register
