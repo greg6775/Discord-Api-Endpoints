@@ -41,6 +41,8 @@ URL: https://canary.discordapp.com/api/v6
 &nbsp;
 ### /connections/:provider-id/authorize
 &nbsp;
+### /discoverable-guilds
+&nbsp;
 ### /entitlements/gift-codes/:gift-code
 &nbsp;
 ### /experiments
