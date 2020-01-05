@@ -1,9 +1,10 @@
 ## API ENDPOINTS
-
-URL: https://canary.discordapp.com/api/v6
-
+&nbsp;
+&nbsp;
+Base-URL: https://canary.discordapp.com/api/v6
+&nbsp;
 # GET
-
+&nbsp;
 ### /applications
 ### /applications/:application-id
 ### /applications/:application-id/branches
