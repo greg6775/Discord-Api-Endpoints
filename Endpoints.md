@@ -5,6 +5,7 @@ URL: https://canary.discordapp.com/api/v6
 # GET
 
 ### /applications
+### /applications/:application-id
 ### /applications/:application-id/branches
 ### /applications/:application-id/branches/:branch-id/builds
 ### /applications/:application-id/branches/:branch-id/builds/:build-id
@@ -145,7 +146,8 @@ URL: https://canary.discordapp.com/api/v6
 ### /webhooks/:webhook-id
 ### /webhooks/:webhook-id/:webhook-token
 &nbsp;
-# POST
+&nbsp;
+# POST (Not finished)
 &nbsp;
 ### /channels/:channel-id/messages
 ### /channels/:channel-id/messages/bulk-delete
