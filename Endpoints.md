@@ -74,6 +74,7 @@ URL: https://canary.discordapp.com/api/v6
 ### /guilds/:guild-id/members/:user-id
 ### /guilds/:guild-id/messages/search
 ### /guilds/:guild-id/premium/subscriptions
+### /guilds/:guild-id/preview
 ### /guilds/:guild-id/prune
 ### /guilds/:guild-id/regions
 ### /guilds/:guild-id/roles
@@ -99,6 +100,8 @@ URL: https://canary.discordapp.com/api/v6
 ### /store/skus/:application-id
 ### /store/skus/:application-id/listings
 &nbsp;
+### /streams/:stream-key/preview
+&nbsp;
 ### /tutorial
 &nbsp;
 ### /users/:user-id
@@ -109,6 +112,7 @@ URL: https://canary.discordapp.com/api/v6
 ### /users/@me
 ### /users/@me?with_analytics_token=true
 ### /users/@me/activities/statistics/applications
+### /users/@me/affinities/guilds
 ### /users/@me/affinities/users
 ### /users/@me/applications/:application-id/achievements
 ### /users/@me/applications/:application-id/entitlements
