@@ -1,9 +1,11 @@
-## API ENDPOINTS
+t## API ENDPOINTS
 &nbsp;
 &nbsp;
 Base-URL: https://canary.discordapp.com/api/v6
 &nbsp;
 # GET
+&nbsp;
+### /guilds/templates/:template-id
 &nbsp;
 ### /applications
 ### /applications/:application-id
