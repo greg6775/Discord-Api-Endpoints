@@ -62,6 +62,7 @@ Base-URL: https://canary.discord.com/api/v6
 ### /guilds/:guild-id/bans
 ### /guilds/:guild-id/bans/:user-id
 ### /guilds/:guild-id/channels
+### /guilds/:guild-id/discovery-requirements
 ### /guilds/:guild-id/embed
 ### /guilds/:guild-id/emojis
 ### /guilds/:guild-id/emojis/:emoji-id
@@ -77,6 +78,7 @@ Base-URL: https://canary.discord.com/api/v6
 ### /guilds/:guild-id/roles
 ### /guilds/:guild-id/vanity-url
 ### /guilds/:guild-id/webhooks
+### /guilds/:guild-id/widget
 &nbsp;
 ### /invites/:invite-code
 ### /invite/:invite-code
