@@ -14,8 +14,6 @@ Base-URL: https://canary.discord.com/api/v6
 ### /applications/:application-id/skus
 ### /applications/:application-id/public
 ### /applications/detectable
-### /applications/public?application_ids=:application-id
-### /applications/trending/global
 &nbsp;
 ### /application-news
 ### /application-news/:application-news-id
@@ -51,8 +49,6 @@ Base-URL: https://canary.discord.com/api/v6
 &nbsp;
 ### /friend-suggestions
 &nbsp;
-### /games
-&nbsp;
 ### /gateway
 ### /gateway/bot
 &nbsp;
@@ -66,7 +62,6 @@ Base-URL: https://canary.discord.com/api/v6
 ### /guilds/:guild-id/bans
 ### /guilds/:guild-id/bans/:user-id
 ### /guilds/:guild-id/channels
-### /guilds/:guild-id/discovery-checklist
 ### /guilds/:guild-id/embed
 ### /guilds/:guild-id/emojis
 ### /guilds/:guild-id/emojis/:emoji-id
@@ -95,16 +90,12 @@ Base-URL: https://canary.discord.com/api/v6
 ### /oauth2/tokens
 ### /oauth2/tokens/:application-id
 &nbsp;
-### /promotions
-&nbsp;
 ### /store/published-listings/applications/:application-id
 ### /store/published-listings/skus/:application-id
 ### /store/skus/:application-id
 ### /store/skus/:application-id/listings
 &nbsp;
 ### /streams/:stream-key/preview
-&nbsp;
-### /tutorial
 &nbsp;
 ### /users/:user-id
 ### /users/:user-id/channels
