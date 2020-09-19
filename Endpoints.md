@@ -1,7 +1,7 @@
 ## API ENDPOINTS
 &nbsp;
 &nbsp;
-Base-URL: https://canary.discord.com/api/v6
+Base-URL: https://canary.discord.com/api/v8
 &nbsp;
 # GET
 &nbsp;
@@ -43,6 +43,8 @@ Base-URL: https://canary.discord.com/api/v6
 &nbsp;
 ### /discoverable-guilds
 &nbsp;
+### /discovery/categories
+&nbsp;
 ### /entitlements/gift-codes/:gift-code
 &nbsp;
 ### /experiments
@@ -57,11 +59,15 @@ Base-URL: https://canary.discord.com/api/v6
 &nbsp;
 ### /guilds/:guild-id
 ### /guilds/:guild-id/analytics/overview
+### /guilds/:guild-id/analytics/engagement/overview
+### /guilds/:guild-id/analytics/growth-activation/overview
+### /guilds/:guild-id/analytics/growth-activation/retention
 ### /guilds/:guild-id/applications
 ### /guilds/:guild-id/audit-logs
 ### /guilds/:guild-id/bans
 ### /guilds/:guild-id/bans/:user-id
 ### /guilds/:guild-id/channels
+### /guilds/:guild-id/discovery-metadata
 ### /guilds/:guild-id/discovery-requirements
 ### /guilds/:guild-id/embed
 ### /guilds/:guild-id/emojis
@@ -76,9 +82,12 @@ Base-URL: https://canary.discord.com/api/v6
 ### /guilds/:guild-id/prune
 ### /guilds/:guild-id/regions
 ### /guilds/:guild-id/roles
+### /guilds/:guild-id/templates
 ### /guilds/:guild-id/vanity-url
 ### /guilds/:guild-id/webhooks
+### /guilds/:guild-id/welcome-screen
 ### /guilds/:guild-id/widget
+### /guilds/templates/:template-id
 &nbsp;
 ### /invites/:invite-code
 ### /invite/:invite-code
@@ -90,7 +99,10 @@ Base-URL: https://canary.discord.com/api/v6
 ### /oauth2/authorize?client_id=:client-id
 ### /oauth2/authorize/webhook-channels?guild_id=:guild-id
 ### /oauth2/tokens
-### /oauth2/tokens/:application-id
+### /oauth2/tokens/:token
+&nbsp;
+### /partners/:guild-id/requirements
+### /partners/connections/
 &nbsp;
 ### /store/published-listings/applications/:application-id
 ### /store/published-listings/skus/:application-id
@@ -131,6 +143,8 @@ Base-URL: https://canary.discord.com/api/v6
 ### /users/@me/harvest
 ### /users/@me/library
 ### /users/@me/mentions
+### /users/@me/notes
+### /users/@me/notes/:note-user-id
 ### /users/@me/relationships
 ### /users/@me/settings
 &nbsp;
