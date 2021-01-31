@@ -11,6 +11,10 @@ Base-URL: https://canary.discord.com/api/v8
 ### /applications/:application-id/branches/:branch-id/builds
 ### /applications/:application-id/branches/:branch-id/builds/:build-id
 ### /applications/:application-id/branches/:branch-id/builds/live?locale=:locale&platform=:platform
+### /applications/:application-id/commands
+### /applications/:application-id/commands/:command-id
+### /applications/:application-id/guilds/:guild-id/commands
+### /applications/:application-id/guilds/:guild-id/commands/:command-id
 ### /applications/:application-id/skus
 ### /applications/:application-id/public
 ### /applications/detectable
