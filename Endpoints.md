@@ -80,6 +80,7 @@ Base-URL: https://canary.discord.com/api/v8
 ### /guilds/:guild-id/invites
 ### /guilds/:guild-id/members
 ### /guilds/:guild-id/members/:user-id
+### /guilds/:guild-id/member-verification
 ### /guilds/:guild-id/messages/search
 ### /guilds/:guild-id/premium/subscriptions
 ### /guilds/:guild-id/preview
@@ -91,11 +92,14 @@ Base-URL: https://canary.discord.com/api/v8
 ### /guilds/:guild-id/webhooks
 ### /guilds/:guild-id/welcome-screen
 ### /guilds/:guild-id/widget
-### /guilds/templates/:template-id
+### /guilds/:guild-id/widget.json
+### /guilds/:guild-id/widget.png
+### /guilds/templates/:template-code
 &nbsp;
 ### /invites/:invite-code
 ### /invite/:invite-code
 &nbsp;
+### /oauth2/@me
 ### /oauth2/applications
 ### /oauth2/applications/:application-id
 ### /oauth2/applications/:application-id/rpc
