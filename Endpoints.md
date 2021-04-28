@@ -1,7 +1,7 @@
 ## API ENDPOINTS
 &nbsp;
 &nbsp;
-Base-URL: https://canary.discord.com/api/v8
+Base-URL: https://canary.discord.com/api/v
 &nbsp;
 # GET
 &nbsp;
@@ -25,9 +25,9 @@ Base-URL: https://canary.discord.com/api/v8
 ### /activities
 ### /activities/statistics/applications/:application-id
 &nbsp;
+### /auth/location-metadata
 ### /auth/login
 ### /auth/register
-### /auth/consent-required
 &nbsp;
 ### /channels/:channel-id
 ### /channels/:channel-id/call
