@@ -1,7 +1,7 @@
 ## API ENDPOINTS
 &nbsp;
 &nbsp;
-Base-URL: https://canary.discord.com/api/v
+Base-URL: https://canary.discord.com/api/v9
 &nbsp;
 # GET
 &nbsp;
@@ -15,6 +15,8 @@ Base-URL: https://canary.discord.com/api/v
 ### /applications/:application-id/commands/:command-id
 ### /applications/:application-id/guilds/:guild-id/commands
 ### /applications/:application-id/guilds/:guild-id/commands/:command-id
+### /applications/:application-id/guilds/:guild-id/commands/:command-id/permissions
+### /applications/:application-id/guilds/:guild-id/commands/permissions
 ### /applications/:application-id/skus
 ### /applications/:application-id/public
 ### /applications/detectable
@@ -52,6 +54,7 @@ Base-URL: https://canary.discord.com/api/v
 ### /entitlements/gift-codes/:gift-code
 &nbsp;
 ### /experiments
+### /experiments?with_guild_experiments=true
 &nbsp;
 ### /friend-suggestions
 &nbsp;
@@ -119,6 +122,8 @@ Base-URL: https://canary.discord.com/api/v
 &nbsp;
 ### /streams/:stream-key/preview
 &nbsp;
+### /teams
+&nbsp;
 ### /users/:user-id
 ### /users/:user-id/channels
 ### /users/:user-id/profile
@@ -159,6 +164,7 @@ Base-URL: https://canary.discord.com/api/v
 ### /voice/regions
 ### /voice/ice
 &nbsp;
+### /webhooks/:application-id/:interaction-token/messages/@original
 ### /webhooks/:webhook-id
 ### /webhooks/:webhook-id/:webhook-token
 &nbsp;
