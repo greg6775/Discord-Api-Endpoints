@@ -44,6 +44,15 @@ Base-URL: https://canary.discord.com/api/v9
 ### /channels/:channel-id/store-listing
 ### /channels/:channel-id/store-listing/:sku-id
 ### /channels/:channel-id/webhooks
+### /channels/:channel-id/messages/:message-id/threads
+### /channels/:channel-id/threads
+### /channels/:channel-id/thread-members/@me
+### /channels/:channel-id/thread-members/:user-id
+### /channels/:channel-id/thread-members
+### /channels/:channel-id/threads/active
+### /channels/:channel-id/threads/archived/public
+### /channels/:channel-id/threads/archived/private
+### /channels/:channel-id/users/@me/threads/archived/private
 &nbsp;
 ### /connections/:provider-id/authorize
 &nbsp;
