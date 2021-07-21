@@ -181,13 +181,75 @@ Base-URL: https://canary.discord.com/api/v9
 # POST (Not finished)
 &nbsp;
 ### /channels/:channel-id/messages
+```json
+{
+  "content": "",
+  "nonce": "[snowflake]",
+  "tts": false
+}
+```
 ### /channels/:channel-id/messages/bulk-delete
 ### /channels/:channel-id/invites
+```json
+{
+  "validate": null,
+  "max_age": 604800,
+  "max_uses": 0,
+  "target_user_id": null,
+  "target_type": null,
+  "temporary": false
+}
+```
 ### /channels/:channel-id/typing
 &nbsp;
 ### /guilds/:guild-id/emojis
+```json
+{
+  "image": "data:[mime];[encoding],[data]",
+  "name": ""
+}
+```
 ### /guilds/:guild-id/channels
+```json
+{
+  "type": 0,
+  "name": "",
+  "permission_overwrites": [],
+  "parent_id": ""
+}
+```
 ### /guilds/:guild-id/roles
+```json
+{
+  "color": 0,
+  "name": "",
+  "permissions": ""
+}
+```
 ### /guilds/:guild-id/prune
+```
+{
+  "days": 0,
+  "compute_prune_count":false,
+  "include_roles": [""]
+}
+```
 ### /guilds/:guild-id/integrations
 ### /guilds/:guild-id/integrations/:integration-id/sync
+&nbsp;
+### /invites/:invite
+&nbsp;
+&nbsp;
+## DELETE (Not finished)
+&nbsp;
+### /users/@me/guilds/:guild-id
+```json
+{
+  "lurking": false
+}
+```
+&nbsp;
+### /channels/:id
+### /channels/:channel-id/messages/:message-id
+&nbsp;
+### /guilds/:guild-id/roles/:role-id
