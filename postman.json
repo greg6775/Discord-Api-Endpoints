@@ -4028,6 +4028,9 @@
     ],
     "variable": [
         {
+            "key": "authorizationToken"
+        },
+        {
             "key": "application-id"
         },
         {
@@ -4123,5 +4126,20 @@
         {
             "key": "integration-id"
         }
-    ]
+    ],
+    "auth": {
+        "type": "apikey",
+        "apikey": [
+            {
+                "key": "value",
+                "value": "{{authorizationToken}}",
+                "type": "string"
+            },
+            {
+                "key": "key",
+                "value": "authorization",
+                "type": "string"
+            }
+        ]
+    }
 }
