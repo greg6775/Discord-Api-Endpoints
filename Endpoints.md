@@ -43,16 +43,11 @@ Base-URL: https://canary.discord.com/api/v9
 ### /channels/:channel-id/pins
 ### /channels/:channel-id/store-listing
 ### /channels/:channel-id/store-listing/:sku-id
+### /channels/:channel-id/users/@me/threads/archived/private
 ### /channels/:channel-id/webhooks
-### /channels/:channel-id/messages/:message-id/threads
-### /channels/:channel-id/threads
-### /channels/:channel-id/thread-members/@me
-### /channels/:channel-id/thread-members/:user-id
-### /channels/:channel-id/thread-members
 ### /channels/:channel-id/threads/active
 ### /channels/:channel-id/threads/archived/public
 ### /channels/:channel-id/threads/archived/private
-### /channels/:channel-id/users/@me/threads/archived/private
 &nbsp;
 ### /connections/:provider-id/authorize
 &nbsp;
@@ -85,7 +80,6 @@ Base-URL: https://canary.discord.com/api/v9
 ### /guilds/:guild-id/channels
 ### /guilds/:guild-id/discovery-metadata
 ### /guilds/:guild-id/discovery-requirements
-### /guilds/:guild-id/embed
 ### /guilds/:guild-id/emojis
 ### /guilds/:guild-id/emojis/:emoji-id
 ### /guilds/:guild-id/integrations
