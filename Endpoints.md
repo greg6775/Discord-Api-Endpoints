@@ -30,6 +30,7 @@ Base-URL: https://canary.discord.com/api/v9
 ### /auth/location-metadata
 ### /auth/login
 ### /auth/register
+### /auth/sessions*
 &nbsp;
 ### /channels/:channel-id
 ### /channels/:channel-id/call
