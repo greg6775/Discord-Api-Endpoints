@@ -158,6 +158,8 @@ Base-URL: https://canary.discord.com/api/v9
 ### /users/@me/guilds/premium/subscription-slots
 ### /users/@me/guilds/premium/subscriptions/cooldown
 ### /users/@me/harvest
+<!-- Found in Discord Webpack API output (x.ANM) -->
+### /users/@me/invites
 ### /users/@me/library
 ### /users/@me/mentions
 ### /users/@me/notes
@@ -186,3 +188,11 @@ Base-URL: https://canary.discord.com/api/v9
 ### /guilds/:guild-id/prune
 ### /guilds/:guild-id/integrations
 ### /guilds/:guild-id/integrations/:integration-id/sync
+&nbsp;
+<!-- Found in Discord Webpack API output (x.ANM) -->
+### /users/@me/invites
+
+# DELETE (Not finished)
+
+<!-- Found in Discord Webpack API output (x.ANM) -->
+### /users/@me/invites
