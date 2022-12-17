@@ -18,6 +18,7 @@ Base-URL: https://canary.discord.com/api/v10
 ### /applications/:application-id/public
 ### /applications/detectable
 &nbsp;
+### /application-directory/applications/:application_id
 ### /application-directory/applications/:application_id/similar
 ### /application-directory/applications/recommended
 ### /application-directory/categories
